@@ -1,6 +1,8 @@
 var express = require('express');
 var path = require('path');
+
 var app = express();
+
 // takes me to rootpath
 var rootPath = path.normalize(__dirname + '/../')
 
