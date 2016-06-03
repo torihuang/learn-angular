@@ -3,6 +3,7 @@
 eventsApp.controller('EditProfileController',
     function EditProfileController($scope) {
         $scope.user = {};
+        $scope.testhere = "NIHAO";
 
         $scope.getGravatarUrl = function(email) {
             var defaultGravatarUrl = "http://www.gravatar.com/avatar/000?s=200";
